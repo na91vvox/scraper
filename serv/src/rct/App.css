@@ -1,0 +1,19 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #e1e1e1;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #242424;
+}
+
+.pagination {
+  position: sticky;
+  top: 0;
+  background-color: #242424;
+}
+
+.pagination button {
+  margin: 1em 1em 0 1em;
+}

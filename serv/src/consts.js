@@ -1,0 +1,9 @@
+const TOTAL_ITEMS_COUNT = 500;
+const ITEMS_PER_PAGE_COUNT = 25;
+const TOTAL_PAGES_COUNT = Math.ceil(TOTAL_ITEMS_COUNT / ITEMS_PER_PAGE_COUNT);
+
+module.exports = Object.freeze({
+    TOTAL_ITEMS_COUNT,
+    ITEMS_PER_PAGE_COUNT,
+    TOTAL_PAGES_COUNT,
+});

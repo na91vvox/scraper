@@ -1,0 +1,12 @@
+version: '3'
+services:
+  serv:
+    build: ./serv
+    ports:
+      - 8080:8080
+  pgdb:
+    build: ./pgdb
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=password123
